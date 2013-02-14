@@ -3,7 +3,9 @@ require "rails"
 
 module BootstrapBuilder
   class Engine < Rails::Engine
-    
+    engine_name 'BootstrapBuilder'
+    isolate_namespace BootstrapBuilder
+
     initializer 'helper' do |app|
       ActionView::Base.send(:include, BootstrapBuilder::Helper)
       

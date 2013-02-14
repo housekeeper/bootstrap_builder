@@ -9,6 +9,6 @@ Jeweler::Tasks.new do |gem|
   gem.summary = "A Rails form builder that generates Twitter Bootstrap markup and helps keep your code clean"
   gem.description = ''
   gem.email = "jack@twg.ca"
-  gem.authors = ["Jack Neto", 'The Working Group Inc.']
+  gem.authors = ["Jack Neto, HouseKeeper", 'The Working Group Inc.']
 end
 Jeweler::RubygemsDotOrgTasks.new
