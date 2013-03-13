@@ -5,7 +5,7 @@ $(document).ready(function() {
 });
 
 // Shows the submit button replacement text on click
-$('input[type=submit].btn.change_to_text input[type=submit]').live('click', function(){
+$(document).on('click', 'input[type=submit].btn.change_to_text input[type=submit]', function () {
   $(this).parent().next().show();
   $(this).parent().hide();
-})
+});
